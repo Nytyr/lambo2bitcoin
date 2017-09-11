@@ -3,10 +3,16 @@ $(document).ready(function() {
     $title = $("#title");
     $total = $("#total");
     $lambos = $("#lambos");
+    var coin = window.location.hash.substr(1);
+    
     $lambos.keyup(function() {
         crypto($crypto.html());
     });
-    btc();
+    if (coin) {
+        crypto(coin);
+    } else {
+        btc();
+    }
 });
 
 function btc() {
