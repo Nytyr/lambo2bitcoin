@@ -1,0 +1,103 @@
+<!------------------------------------------------------------------------------------
+                                              _____________
+                                  ..---:::::::-----------. ::::;;.
+                               .'""""""                  ;;   \  ":.
+                            .''                          ;     \   "\__.
+                          .'                            ;;      ;   \\";
+                        .'                              ;   _____;   \\/
+                      .'                               :; ;"     \ ___:'.
+                    .'--...........................    : =   ____:"    \ \
+               ..-""                               """'  o"""     ;     ; :
+          .--""  .----- ..----...    _.-    --.  ..-"     ;       ;     ; ;
+       .""_-     "--""-----'""    _-"        .-""         ;        ;    .-.
+    .'  .'                      ."         ."              ;       ;   /. |
+   /-./'                      ."          /           _..  ;       ;   ;;;|
+  :  ;-.______               /       _________==.    /_  \ ;       ;   ;;;;
+  ;  / |      """"""""""".---."""""""          :    /" ". |;       ; _; ;;;
+ /"-/  |                /   /                  /   /     ;|;      ;-" | ;';
+:-  :   """----______  /   /              ____.   .  ."'. ;;   .-"..T"   .
+'. "  ___            "":   '""""""""""""""    .   ; ;    ;; ;." ."   '--"
+ ",   __ """  ""---... :- - - - - - - - - ' '  ; ;  ;    ;;"  ."
+  /. ;  """---___                             ;  ; ;     ;|.""
+ :  ":           """----.    .-------.       ;   ; ;     ;:
+  \  '--__               \   \        \     /    | ;     ;;
+   '-..   """"---___      :   .______..\ __/..-""|  ;   ; ;
+       ""--..       """--"        m l s         .   ". . ;
+             ""------...                  ..--""      " :
+                        """"""""""""""""""    \        /
+                                               "------"
+
+
+
+-------------------------------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Lambo 2 Crypto</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link href="cover.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="inner cover">
+            <h1 class="cover-heading">How much <span id="title"></span> for one lambo?</h1>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="input-group">
+                  <div class="input-group-btn">
+                    <button type="button" class="btn btn-default" aria-haspopup="true" aria-expanded="false">Lambo</button>
+                  </div><!-- /btn-group -->
+                  <input type="number" class="form-control" aria-label="..." id="lambos" value="1">
+                </div><!-- /input-group -->
+              </div><!-- /.col-lg-6 -->
+              <div class="col-lg-6">
+                <div class="input-group">
+                  <input type="number" disabled="disabled" class="form-control" aria-label="..." id="total" placeholder="...">
+                  <div class="input-group-btn">
+                    <button type="button" id="crypto" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BTC <span class="caret"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                      <li><a href="#" onclick="btc()">BTC</a></li>
+                      <li><a href="#" onclick="ethereum()">ETH</a></li>
+                      <li><a href="#" onclick="waves()">WAVES</a></li>
+                    </ul>
+                  </div><!-- /btn-group -->
+                </div><!-- /input-group -->
+              </div><!-- /.col-lg-6 -->
+            </div><!-- /.row -->
+
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>1 Lambo Huracan ≈ 204.000$</p>
+              <p>BTC Donations 1JtFEhsHrA7t2B2xhhdsGPFGFNnyXEwS5h</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
